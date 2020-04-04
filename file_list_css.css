@@ -52,6 +52,18 @@ font-family: ""IBM Plex Mono"", Roboto Mono, VT323, Roboto Mono, monospace;
 
 }
 
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+
 tbody>tr>:nth-child(1){
  width:22px;
 }
@@ -61,3 +73,5 @@ tbody>tr>:nth-child(2){
 text-align: justify;
 text-align-last: left;
 }
+
+
